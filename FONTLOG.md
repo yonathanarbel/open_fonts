@@ -1,5 +1,12 @@
 # FONTLOG — Gloss Manuscript
 
+## 1.001 — 2026-07-17
+
+- Tightened the core uppercase, lowercase, and figure sidebearings in Regular, Italic, and Bold.
+- Applied additional optical spacing corrections to narrow letters such as `i`, `l`, and `j`.
+- Preserved the corrected period baseline and all OpenType behavior.
+- Rebuilt and revalidated the desktop fonts, webfonts, and PDF specimens.
+
 ## 1.000 — 2026-07-17
 
 - Released Regular, Italic, and Bold in TTF and WOFF2 formats.
@@ -8,4 +15,3 @@
 - Added long-reading and family specimen PDFs.
 - Corrected the optical baseline position of the period in all three styles.
 - Passed structural, cmap, composite, serialization, FreeType, and OpenType shaping checks.
-
