@@ -1,5 +1,12 @@
 # FONTLOG — Gloss Manuscript
 
+## 1.005 — 2026-07-18
+
+- Applied a uniform -28-unit-per-em reduction to every alphabetic advance in Regular, Italic, and Bold.
+- Tightened base spacing throughout unkerned Word text, including `h–i` in “This,” `f–a` and `a–l` in “fall,” and the overall texture of “Article I will say.”
+- Removed the earlier Gloss-specific pair compensations; the compactness now comes from the alphabetic spacing model rather than isolated pairs.
+- Left word-space and figure widths unchanged.
+
 ## 1.004 — 2026-07-18
 
 - Replaced the overly broad Garamond-advance model with outline-aware spacing for the directly traced alphabet and figures.
