@@ -72,7 +72,7 @@ Copy the `.ttf` files to `~/.local/share/fonts/` and run `fc-cache -f`.
 
 ## Version
 
-Version 1.000, released 17 July 2026. This release includes an optical baseline correction for the period in all three styles.
+Version 1.001, released 17 July 2026. This release includes an optical baseline correction for the period and tighter text spacing across all three styles.
 
 ## License
 
