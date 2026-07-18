@@ -1,5 +1,13 @@
 # FONTLOG — Gloss Manuscript
 
+## 1.002 — 2026-07-17
+
+- Matched horizontal metrics to the installed Windows Garamond 2.40 family (`GARA.TTF`, `GARAIT.TTF`, and `GARABD.TTF`).
+- Matched per-glyph advances, left sidebearings, word-space width, and every applicable style-specific kerning pair.
+- Preserved the Gloss Manuscript outlines; no Garamond contour, hinting program, bitmap, or font program is included.
+- Kept ligature substitutions width-compatible with the corresponding Garamond character sequences.
+- Rebuilt and revalidated the desktop fonts, webfonts, and PDF specimens.
+
 ## 1.001 — 2026-07-17
 
 - Tightened the core uppercase, lowercase, and figure sidebearings in Regular, Italic, and Bold.

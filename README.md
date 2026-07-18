@@ -8,7 +8,7 @@ Gloss Manuscript is an open-source serif family for legal, editorial, and long-f
 - Italic
 - Bold
 
-The family was drawn as a custom project from a commissioned raster design. No third-party font binary or donor font outline was incorporated into the build.
+The family was drawn as a custom project from a commissioned raster design. No third-party font binary or donor font outline was incorporated into the build. Version 1.002 uses the horizontal metrics and kerning of the Windows Garamond 2.40 family as a spacing reference; it does not contain Garamond outlines.
 
 ## Download
 
@@ -72,7 +72,7 @@ Copy the `.ttf` files to `~/.local/share/fonts/` and run `fc-cache -f`.
 
 ## Version
 
-Version 1.001, released 17 July 2026. This release includes an optical baseline correction for the period and tighter text spacing across all three styles.
+Version 1.002, released 17 July 2026. This release matches the per-glyph advances, left sidebearings, word space, and applicable kerning pairs of Windows Garamond 2.40 in Regular, Italic, and Bold.
 
 ## License
 
