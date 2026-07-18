@@ -72,7 +72,7 @@ Copy the `.ttf` files to `~/.local/share/fonts/` and run `fc-cache -f`.
 
 ## Version
 
-Version 1.002, released 17 July 2026. This release matches the per-glyph advances, left sidebearings, word space, and applicable kerning pairs of Windows Garamond 2.40 in Regular, Italic, and Bold.
+Version 1.003, released 18 July 2026. This release retains Garamond 2.40 horizontal metrics and adds optical pair corrections for `h–i`, `a–i`, `a–n`, `i–c`, and `c–i` where the different Gloss outlines otherwise appeared too open.
 
 ## License
 

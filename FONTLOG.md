@@ -1,5 +1,11 @@
 # FONTLOG — Gloss Manuscript
 
+## 1.003 — 2026-07-18
+
+- Added targeted optical kerning corrections for `h–i`, `a–i`, `a–n`, `i–c`, and `c–i` after in-context review of “This,” “The Claimant’s,” and “Official.”
+- Retained the Garamond 2.40 per-glyph advances, left sidebearings, and word-space width.
+- Rebuilt and revalidated the desktop fonts, webfonts, and PDF specimens.
+
 ## 1.002 — 2026-07-17
 
 - Matched horizontal metrics to the installed Windows Garamond 2.40 family (`GARA.TTF`, `GARAIT.TTF`, and `GARABD.TTF`).
