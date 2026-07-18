@@ -1,5 +1,12 @@
 # FONTLOG — Gloss Manuscript
 
+## 1.004 — 2026-07-18
+
+- Replaced the overly broad Garamond-advance model with outline-aware spacing for the directly traced alphabet and figures.
+- Preserved each Gloss glyph's original traced ink width while matching both its left and right optical sidebearings to Garamond 2.40.
+- Corrected excessive unkerned gaps after narrow traced forms, including `f` in “funds transfers,” and recurring openness after `h`, `u`, `n`, `i`, `l`, `m`, and `o`.
+- Recalibrated the residual pair corrections and made base spacing work when applications such as Word do not apply pair kerning.
+
 ## 1.003 — 2026-07-18
 
 - Added targeted optical kerning corrections for `h–i`, `a–i`, `a–n`, `i–c`, and `c–i` after in-context review of “This,” “The Claimant’s,” and “Official.”
