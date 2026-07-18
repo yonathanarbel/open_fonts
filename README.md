@@ -8,7 +8,7 @@ Gloss Manuscript is an open-source serif family for legal, editorial, and long-f
 - Italic
 - Bold
 
-The family was drawn as a custom project from a commissioned raster design. No third-party font binary or donor font outline was incorporated into the build. Version 1.004 uses normalized left/right sidebearings and kerning from Windows Garamond 2.40 as an optical-spacing reference while retaining the Gloss outlines' own ink widths; it does not contain Garamond outlines.
+The family was drawn as a custom project from a commissioned raster design. No third-party font binary or donor font outline was incorporated into the build. Version 1.005 uses normalized left/right sidebearings and kerning from Windows Garamond 2.40 as an optical-spacing reference, retains the Gloss outlines' own ink widths, and applies compact -28-unit alphabetic tracking; it does not contain Garamond outlines.
 
 ## Download
 
@@ -18,7 +18,9 @@ Desktop TrueType fonts are in [`fonts/ttf`](fonts/ttf). Webfonts are in [`fonts/
 
 - [Long-reading proof](specimens/Gloss-Manuscript-Long-Reading-Proof.pdf) — ten pages of selectable, embedded text
 - [Family specimen and QA proof](specimens/Gloss-Manuscript-Specimen.pdf) — character sets, features, comparisons, and working sizes
+- [Word no-kerning spacing test](specimens/Gloss-Manuscript-Word-Spacing-Test.docx) — live-text application proof at normal character spacing and 100% scale
 - [Version 1.004 spacing-model proof](specimens/Gloss-Manuscript-spacing-model-v1.004.png) — unkerned Word-like comparison of the former and corrected models
+- [Version 1.005 compact-tracking proof](specimens/Gloss-Manuscript-tracking-model-v1.005.png) — before/after and three-style QA with kerning disabled
 
 ## Features
 
@@ -73,7 +75,7 @@ Copy the `.ttf` files to `~/.local/share/fonts/` and run `fc-cache -f`.
 
 ## Version
 
-Version 1.004, released 18 July 2026. This release fixes the underlying spacing model: directly traced letters and figures now preserve their own ink widths and match Garamond 2.40's normalized left and right optical bearings. This removes excessive unkerned whitespace in Word and retains only the residual pair corrections still required by the Gloss silhouettes.
+Version 1.005, released 18 July 2026. This release tightens every alphabetic advance by 28 units per em after outline-aware sidebearing matching. The result is a deliberately compact text color in Word even when pair kerning is disabled. Word-space and figure widths remain unchanged.
 
 ## License
 
